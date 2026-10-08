@@ -1,0 +1,189 @@
+#1 RefundShare
+
+1 · Pitch. RefundShare reads an exporter's invoices, price-revision emails and bank receipts. It proves how much tariff cost they absorbed per US buyer, then generates the claim pack to negotiate a share of the refund the buyer just received.
+
+2 · Type: vertical. One customer (Indian goods exporters who sold FOB/CIF to US buyers), one document set, no integrations. That is why it is finishable in 5 hours.
+
+3 · The pain.
+
+Sufferer: export managers and owners at Indian MSME exporters (apparel, engineering goods) whose US buyer was the importer of record.
+Cost, FACT: refunds of the struck-down IEEPA tariffs go only to American importers. About $12B of the pool is tied to Indian goods, and exporters have no direct legal entitlement even though they absorbed costs through discounts (Maritime Gateway). 
+maritimegateway
+Cost, FACT: exporters were pushed into discounts of up to 25%. Industry advice is to seek credit notes, rebate-sharing clauses or price revisions, using invoices and tariff data to show how costs were absorbed. One exporter said buyers refused to share (The Wire). A second view is at Basis Point Insight. 
+thewire
+thewire
+Coping, INFERENCE: Excel, email threads and goodwill. Nothing in the coverage points to a purpose-built tool.
+Already exists? FACT: Skydo and Intoglo launched a service for exporters who were the importer of record (DDP) to claim directly (CXO Digital Pulse). That is a different segment from exporters who only discounted. I found no tool for the discounters (GUESS), so spend 10 minutes verifying before you say "first".
+
+
+
+
+#2 Backstop
+
+1 · Pitch. A circuit breaker between AI coding agents and your database: block, approve, snapshot, undo.
+
+2 · Type: platform (narrow wedge). It qualifies because the wedge is one chokepoint, SQL tool calls from agents to Postgres, not "a new Replit". It is also the layer Cursor/Replit/Docker-class platforms will eventually need.
+
+3 · The pain.
+
+Sufferer: solo founders and small teams who give Cursor, Claude Code or Replit agents database or infra access.
+Cost, FACT: in April 2026 a Cursor agent running Claude Opus 4.6 deleted PocketOS's production database volume and its backups in one Railway API call, in about nine seconds. It ignored project rules and Cursor's marketed "Destructive Guardrails" (Giskard). 
+giskard
+Cost, FACT: a Claude Code agent likewise deleted DataTalks.Club's production database (TechRepublic). PocketOS reportedly spent about 30 hours in crisis (Cyber Security News). 
+techrepublic
+cybersecuritynews
+Coping, INFERENCE: prompt rules the agent can ignore, manual backups, read-only tokens.
+Already exists? FACT: Rubrik's Agent Rewind gives enterprises agent action audit and rollback (Virtualization Review). That is enterprise and after the fact. I found no self-serve gate that stops the destructive call before it runs (GUESS), so verify. 
+
+
+
+
+#3 DemurrageGuard
+
+1 · Pitch. Drop in a carrier's demurrage/detention invoice and get a compliance verdict and a ready-to-send dispute letter in about 10 seconds.
+
+2 · Type: vertical. The rule text is public and deterministic, so an engine can judge the invoice while the LLM only reads the PDF.
+
+3 · The pain.
+
+Sufferer: small and mid-size US importers, forwarders and NVOCCs that receive container demurrage/detention (D&D) invoices.
+Cost, FACT: since May 28, 2024 the FMC billing rule (46 CFR Part 541) requires D&D invoices to be issued within 30 days and carry mandated content. A non-compliant or late invoice means no obligation to pay as issued, and disputes have a 30-day window (Northeast Business Alliance). 
+northeastbizalliance
+Cost, FACT: the D.C. Circuit set aside only §541.4 (who may be invoiced) on Sept 23, 2025, and the rest of the rule stands (FMC). An FMC rule published Sept 1, 2026 exempts D&D charge claims from the three-year limit (TradLinx). 
+fmc
+tradlinx
+Coping, INFERENCE: reading PDFs by hand, paying to avoid a fight, audit firms for big shippers.
+Already exists? FACT: FreeTimeLedger lists D&D invoice audits against Part 541 (G2), and Intelligent Audit sells D&D invoice validation (case study). Your angle (GUESS, verify): per-invoice self-serve with no integrations, plus dispute and FMC-complaint packets. 
+
+
+
+#4 CAPE Rescue
+
+1 · Pitch. Drop your ACE entry export and see which tariff-refund entries to file now, protest, or escalate, plus the corrected upload CSV.
+
+2 · Type: vertical. Pure date-and-eligibility logic on a CSV, with no backend and no data leaving the browser.
+
+3 · The pain.
+
+Sufferer: small US importers and the small customs brokers who file for them.
+Cost, FACT: as of June 29 CBP had authorized $104.29B in refunds and paid $71.06B, and Cato says many smaller firms haven't been able to get refunds through CAPE (Cato). 
+cato
+Cost, FACT: CBP says Phase 3 (Oct 6) covers finally liquidated entries only for importers who are CIT plaintiffs. As of Sept 11, 20,184 refunds (about $1.3B) hadn't been sent because ACH details were missing (Strix). Flexport reports a 20% average error rate in entries it audited from other brokers (Flexport). 
+strixsmart
+flexport
+Coping, INFERENCE: broker blog checklists, paid brokers, spreadsheets.
+Already exists? FACT: Strix ($30/entry self-filing and refund reviews), Tandom's calculator (Tandom), Ginger Control's pre-flight checklist (Ginger Control). It is crowded. Your angle (GUESS): free, in-browser triage and a rejection fixer for small brokers. 
+CAPE Phase 3: IEEPA Refunds on Finally Liquidated Entries, for Plaintiffs Only +2
+
+
+
+#5 CBAM Pack
+
+1 · Pitch. It tells an Indian fastener or steel-wire exporter what the EU carbon border levy will cost per shipment, and generates the supplier data request that cuts it.
+
+2 · Type: mixed (vertical plus workflow). The calculator alone is commodity. The supplier data-request loop is what could compound.
+
+3 · The pain.
+
+Sufferer: Indian MSME exporters of steel and aluminium articles to the EU, and the mills that supply them.
+Cost, FACT: an Indian fastener exporter was told by Danish and German customers that CBAM reports were mandatory. Without verified data, EU default values apply (Implementing Regulation 2025/2621) and are often far above actual emissions. 35% of IamSMEofIndia members had already received emissions-data requests (The Wire). 
+thewire
+Cost, FACT: GTRI says defaults are often 30–80% above actuals, and exporters may need to cut prices 15–22% (India Sea Trade News). The government is reportedly working on a scheme to absorb 90% of MSME compliance cost, which was put at ₹15–20 lakh per MSME (Ease My Prep, summarizing Indian Express). 
+indiaseatradenews
+easemyprep
+Coping, INFERENCE: Excel, consultants, chasing suppliers by email. GTRI notes large producers often don't share plant-level data with MSMEs. 
+maritimegateway
+Already exists? FACT: CBAM cost calculators exist (Greensutra), and verification consultancies like MSE GmbH (MSE commentary). Your angle (GUESS): the supplier-data loop for MSMEs.
+
+
+
+6. Seatbelt + phantom-dependency check
+
+Problem statement: Developers and small teams now let AI coding agents run shell commands and API calls with real credentials in reach. The agent can't tell staging from production, and nothing checks what a command will touch before it runs. A single wrong call can destroy production data. A single invented package name can bring in malicious code.
+
+Who suffers: startup founders, freelancers and agencies running Cursor, Claude Code or Replit-style agents on live projects, in any country.
+What it costs: on April 25, 2026, a Cursor agent deleted PocketOS's production database and volume backups in one API call, taking nine seconds. It was supposed to be fixing a staging credential problem. (dev.to write-up) One write-up counts nine documented cases of coding agents destroying data in fourteen months. (Adversa) On the package side, a Cloud Security Alliance note reports hallucinated package names in 21.7% of samples from open models and 5.2% from commercial ones. (CSA) An empty huggingface-cli package that models kept inventing got over 30,000 downloads in three months. (source)
+How they cope today: approval prompts that people switch off from fatigue, system-prompt rules, and vendor guardrails. The PocketOS write-up says Cursor's destructive guardrails did not stop that deletion.
+The gap: no cross-agent check that classifies which credentials are production before the agent uses them, blocks the destructive action, restores the data, and also vets what the agent installs.
+
+
+7. LeakGate
+
+Problem statement: Founders and freelancers ship apps built by AI app-builders on Supabase without knowing whether strangers can read or write their users' data. Fixing it once isn't enough, because a later migration can turn the protection off again without anyone noticing.
+
+Who suffers: solo founders, agencies and small SaaS teams shipping Lovable- or Bolt-style apps, worldwide.
+What it costs: one write-up reports 170 of 1,645 scanned Lovable apps (about 10.3%) exposed data, with 303 vulnerable endpoints. (Bastion) The related CVE record exists, though the supplier disputes who is responsible. (CVE record) Another write-up cites 12% of 100 vibe-coded apps exposing Supabase credentials. (Rocking Tech)
+How they cope today: builder-side scanners such as Lovable's Security Advisor and Supabase's RLS advisor, manual SQL checks, or nothing. (Pluto Security)
+The gap: existing scanners flag a problem but don't prove what an outsider can actually reach, and don't stop the same hole reappearing in a later deploy.
+
+
+
+8. Squat Radar (standalone)
+
+Problem statement: AI models repeatedly invent package names, repo names and domains that don't exist. Those names then appear in READMEs, setup docs and agent skill files. An attacker can register them first and wait for a developer or an agent to install them.
+
+Who suffers: developers and security teams at companies using coding agents, and maintainers of agent-skill and MCP repos.
+What it costs: the CSA reports 205,474 unique non-existent package names across the models tested, and a July 2026 CSA note describes a hallucinated npm package, react-codeshift, tied to AI-written skill instructions. (CSA July 2026 note) The same CSA material says no confirmed mass-exploitation campaign has been reported, so describe this as an attack surface, not an ongoing attack.
+How they cope today: checking names by hand and using lockfiles and hashes. (The Decoder)
+The gap: as far as I found, nothing scans the files agents read, such as READMEs and skill files, for names that are unclaimed or newly registered. I didn't open competitor product pages, so check this before you claim it.
+
+
+9.Hiring today runs on unverified claims. A final-year student writes "proficient in React, Docker, ML" on LinkedIn, but recruiters can't tell which claims are real. Students can't tell what they're missing, don't know where to get proof, and are targeted by fake offers and biased job posts. Meanwhile, real proof already exists in their GitHub history, scattered and unexplained.
+
+CareerForge closes this loop. It turns GitHub activity into verified evidence, checks LinkedIn claims against it, shows the gap to a target job, sends users to real open-source issues that close the gap, and keeps their profile updated as contributions get merged. The AI is open-weight (Gemma 4) and runs locally, so personal data never leaves the user's machine.
+
+
+10. PreOpen: paste a repo link to find out if opening it will hack you
+
+Problem statement: Developers, especially students and juniors, get take-home tests from fake recruiters, and the repo runs malicious code the moment they open it in their editor. Trend Micro's March 2026 analysis counted 750+ infected repositories and 500+ malicious auto-run VS Code task configs. Today the only defenses are reading config files by hand or knowing to turn off automatic tasks. Nothing gives a plain-English verdict before you open the code. 
+trendmicro
+
+11. FirstHour: a call-ready case file for scam victims in 60 seconds
+
+Problem statement: In India, speed decides whether defrauded money can be frozen, but victims are panicked and don't know what to say or in what order. NCRP received over 24 lakh complaints involving ₹22,495 crore in 2025. Victims currently piece together guides and screenshots while the clock runs, and bank handling of complaints is inconsistent. 
+freepressjournal
+
+12. ProofCart: a robot that shops your store and proves where it deceives
+
+Problem statement: Indian e-commerce sites use dark patterns like fake urgency, hidden fees and cancellation traps. A June 2025 advisory told platforms to self-audit within three months and submit self-declarations. Sellers have no cheap, evidence-grade way to audit their own flows, and existing extensions mostly flag single pages with text heuristics. 
+storyboard18
+
+13. SlopGate: evidence-checked triage for bug reports and PRs
+
+Problem statement: Maintainers and security teams are drowning in plausible-sounding but invalid AI-generated reports and PRs. Google paused submissions to its open-source bug bounty after a significant rise in mostly invalid automated reports. Triagers spend hours disproving claims that cost minutes to generate, and "detect AI text" is unreliable, so reports need to be checked against the actual code. 
+Bleeping Computer
+
+14. ShipCheck: will Apple or Google reject your vibe-coded app?
+
+Problem statement: AI-built apps are flooding the stores, and first-time builders learn about rejection reasons only after submitting. The wave of vibe-coded apps is putting extra pressure on review queues. New personal Google Play accounts also need 12 testers over 14 days. Existing checkers mostly look at listing metadata, not the project's actual code.
+
+
+15. ReConciliator — AI Invoice Reconciliation
+Problem Statement:
+FACT: Finance and accounting teams spend significant time manually matching invoices, payments, and transaction records. Reconciliation can take 40–100 hours per month for an analyst, while mismatches and missing payments can delay financial closing. Evidence: Nilus — Reconciliation Automation
+In simple words:  
+Companies receive invoices from vendors and payments through banks, but these records often don't line up perfectly. Accountants have to manually compare spreadsheets and identify which payment belongs to which invoice, wasting hours and risking errors.
+
+16. TableBoss — Smart Restaurant Shift Scheduler
+Problem Statement:
+FACT: Restaurant managers need to schedule the right number of employees during changing demand. Poor scheduling can cause understaffing during busy periods or unnecessary labor costs during slow periods. Evidence: Altametrics — Restaurant Scheduling
+In simple words:  
+Restaurant managers usually create employee schedules manually, making it difficult to match staffing levels with peak customer demand. This can lead to long customer wait times, overworked employees, or wasted labor costs.
+
+17. CodeMate — AI Codebase Q&A Assistant
+Problem Statement:
+FACT: A 2024 developer survey cited by Sourcegraph found that 61% of developers spend more than 30 minutes per day searching for answers and solutions, making information retrieval a significant productivity problem. Evidence: Sourcegraph — Code Search & Developer Productivity
+In simple words:  
+Developers working on large or unfamiliar codebases waste substantial time finding where functionality is implemented, understanding dependencies, and locating relevant files. Existing search tools require developers to already know what keywords or files to search for.
+
+18. DataCanvas — Multi-Tool Analytics Dashboard
+Problem Statement:
+FACT: SaaS teams report manually pulling customer information from multiple tools such as Mixpanel, Salesforce, and support systems into Excel to create a single report, including the problem of inconsistent data between systems. Evidence: Reddit — Manual SaaS Reporting Workflow
+In simple words:  
+Startup teams often have customer data spread across analytics, CRM, support, and other SaaS tools. They manually copy and reconcile this information to build reports, turning employees into a human data-integration pipeline.
+
+19. AutoEntry — AI Business Data Entry
+Problem Statement:
+FACT: Manual data entry can consume large amounts of employee time; one documented example describes 45 team-hours per week spent copying information into spreadsheets. Evidence: GSheetConnector — Manual Data Entry Costs
+In simple words:  
+Small businesses receive information through emails, forms, invoices, and documents, then manually copy that information into spreadsheets or business systems. This repetitive work consumes employee time and creates opportunities for typing and transcription errors.
